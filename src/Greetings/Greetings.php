@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPBoilerplate\Greetings;
+namespace CodeKatas\Greetings;
 
 class Greetings {
     public static function sayHelloWorld() {

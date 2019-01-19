@@ -2,7 +2,7 @@
 namespace test;
 
 use PHPUnit\Framework\TestCase;
-use PHPBoilerplate\Greetings\Greetings;
+use CodeKatas\Greetings\Greetings;
 
 class GreetingsTest extends TestCase
 {

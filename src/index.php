@@ -2,6 +2,6 @@
 
 require_once '../vendor/autoload.php';
 
-use PHPBoilerplate\Greetings\Greetings;
+use CodeKatas\Greetings\Greetings;
 
 echo Greetings::sayHelloWorld();
