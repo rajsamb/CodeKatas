@@ -12,6 +12,9 @@ phpunit --bootstrap vendor/autoload.php test
 or if phpunit not installed
 vendor/bin/phpunit
 
+## Running PHP Built in server:
+    php -S localhost:8000
+
 ## Source:
 http://www.phplab.info/categories/php-projects/setting-up-initial-php-project-with-composer-php-unit-and-initialize-with-git
 http://www.phplab.info/categories/php-projects/creating-php-project-boilerplate
