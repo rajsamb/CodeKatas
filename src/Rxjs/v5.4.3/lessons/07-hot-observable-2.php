@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include_once 'partials/header.html' ?>
+    <?php include_once '../partials/header.html' ?>
 <body>
 <h1>Doing without decoupling data from observable</h1>
-<script src="js/helper.js"></script>
+<script src="../js/helper.js"></script>
 <script>
     const cold = Rx.Observable.create(observer => {
         observer.next(Math.random());

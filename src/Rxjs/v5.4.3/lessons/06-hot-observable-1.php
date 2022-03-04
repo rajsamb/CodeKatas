@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include_once 'partials/header.html' ?>
+    <?php include_once '../partials/header.html' ?>
 <body>
 <h1>Decoupling data from observable</h1>
 
-<script src="js/helper.js"></script>
+<script src="../js/helper.js"></script>
 <script>
     const rand = Math.random();
     const hot = Rx.Observable.create(observer => {
