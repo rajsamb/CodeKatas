@@ -10,7 +10,11 @@
     const observable = Rx.Observable.of(2, 9, 1, 10, 20, 1000);
 
     observable
-        .map(num => num * num) // Do some transformation on the emitted value by applying square
+        // .map(num => {
+        //     console.log('how many times');
+        //     return num * num;
+        // }) // Long Way: Do some transformation on the emitted value by applying square
+        .map(num => num * num) // Short Cut: Do some transformation on the emitted value by applying square
         .subscribe(transformedNumber => print(transformedNumber));
 </script>
 </body>
