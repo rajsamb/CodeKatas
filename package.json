@@ -1,0 +1,26 @@
+{
+  "name": "codekatas",
+  "version": "1.0.0",
+  "description": "> Change autoload foler name from \"PHPBoilerplate\" to <YourOne>. > composer dumpautoload > Remove Greetings folder or change namespace to <YourOne>",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajsamb/CodeKatas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajsamb/CodeKatas/issues"
+  },
+  "homepage": "https://github.com/rajsamb/CodeKatas#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "rxjs": "^7.5.4"
+  }
+}
